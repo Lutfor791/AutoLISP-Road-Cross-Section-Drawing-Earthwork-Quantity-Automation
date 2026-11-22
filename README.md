@@ -148,9 +148,9 @@ The drawing represents existing field ground and proposed road geometry, with el
 
 ### Generated section and earthwork quantities
 
-![Generated road cross-section and quantities](assets/03-generated-section-and-quantities.png)
+![Generated road cross-section and earthwork quantities at Chainage 21+180](assets/03-generated-section-and-quantities.PNG)
 
-The generated drawing provides a basis for inspecting section geometry and associated quantity calculations.
+This drawing presents the complete road cross-section together with the corresponding item-wise quantity table for Chainage 21+180. It demonstrates the program's integrated AutoCAD drafting and quantity-calculation workflow, including the existing ground profile, proposed road geometry, design and existing RL/offset information, and left-side, right-side and total quantities.
 
 ### Quantity calculation table
 
