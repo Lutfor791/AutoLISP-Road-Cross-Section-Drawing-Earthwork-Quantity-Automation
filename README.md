@@ -1,10 +1,10 @@
-# AutoLISP Road Cross-Section Drawing & Earthwork Quantity Automation
+# AutoLISP Program for Road Cross-Section Drawing & Earthwork Quantity Calculations
 
-![AutoLISP road cross-section project overview](assets/00-project-cover.png)
+![AutoLISP program for road cross-section drawing and earthwork calculations](assets/00-project-cover-updated.svg)
 
 **AutoCAD/AutoLISP automation for road cross-section drawings and earthwork quantity calculations, with operator-controlled chainage processing.**
 
-This portfolio project documents an AutoLISP-based tool developed for road construction work involving cross-sections at approximately **20-metre chainage intervals** in urban areas. It uses surveyed **offset and Reduced Level (RL)** observations and configurable road-design parameters. The main routine deliberately draws **one chainage per execution**, allowing the CAD Operator/CAD Engineer to enter suitable design parameters, process individual sections and continue producing drawings. The Project Engineer checks a selection of initial drawings and calculations to establish confidence in the program; once satisfied, the CAD Engineer proceeds without requiring approval of every subsequent section.
+This portfolio project documents a custom AutoLISP program developed for road construction contractors to produce project-specific drawings and calculations. It supports cross-sections at approximately **20-metre chainage intervals** in urban areas. It uses surveyed **offset and Reduced Level (RL)** observations and configurable road-design parameters. The main routine deliberately draws **one chainage per execution**, allowing the CAD Operator/CAD Engineer to enter suitable design parameters, process individual sections and continue producing drawings. The Project Engineer checks a selection of initial drawings and calculations to establish confidence in the program; once satisfied, the CAD Engineer proceeds without requiring approval of every subsequent section.
 
 > **Portfolio documentation only.** The original AutoLISP source code, program files, client DWGs and unedited screen recording are not distributed here. This repository is not a runnable software release.
 
