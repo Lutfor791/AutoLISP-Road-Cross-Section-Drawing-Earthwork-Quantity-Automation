@@ -22,7 +22,7 @@
 <text x="183" y="599" font-family="Arial,sans-serif" font-size="21" fill="#5c6c76">Draw one section</text>
 <circle cx="475" cy="591" r="6" fill="#c3cec9"/>
 <text x="536" y="599" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#283b46">A1</text>
-<text x="598" y="599" font-family="Arial,sans-serif" font-size="21" fill="#5c6c76">Measure enclosed area</text>
+<text x="598" y="599" font-family="Arial,sans-serif" font-size="21" fill="#5c6c76">Measure cut/fill area</text>
 <circle cx="950" cy="591" r="6" fill="#c3cec9"/>
 <text x="1010" y="599" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#283b46">AT</text>
 <text x="1068" y="599" font-family="Arial,sans-serif" font-size="21" fill="#5c6c76">Sum left / right values</text>
