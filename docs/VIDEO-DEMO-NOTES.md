@@ -20,6 +20,6 @@ The original screen recording is approximately **4 minutes 35 seconds** and cont
 | Output | Finished section with surveyed ground and designed roadway |
 | `A1` | Area measurement for a selected enclosed cut/fill region |
 | `AT` | Summation of left/right quantities |
-| Closing | The completed drawing and engineering QA message |
+| Closing | The completed drawing; initial Project Engineer validation followed by continued CAD production |
 
 These are **editing suggestions**, not a frame-accurate transcript. Add a link from the README only after a redacted demonstration has been reviewed and approved.
