@@ -18,7 +18,7 @@ The original screen recording is approximately **4 minutes 35 seconds** and cont
 | `CC` setup | Design-parameter configuration and one-chainage approach |
 | Input | Offset–RL field observations and markers |
 | Output | Finished section with surveyed ground and designed roadway |
-| `A1` | Area measurement for a selected enclosed cut/fill region |
+| `A1` | Measure an earthwork cut or fill area; explain that the command can also measure any enclosed area |
 | `AT` | Summation of left/right quantities |
 | Closing | The completed drawing; initial Project Engineer validation followed by continued CAD production |
 
