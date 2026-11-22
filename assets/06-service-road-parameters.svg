@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 580" width="1500" height="580" role="img" aria-labelledby="t d">
+<title id="t">Service Road parameter dialogs — values transcribed from the recorded AutoCAD workflow</title><desc id="d">A vector recreation of the settings dialogs visible in the author's demonstration recording. The left dialog includes separate left and right service road widths, cross slopes and drain dimensions. The right dialog includes JRCP, lean concrete, sub-base and ISG thicknesses.</desc>
+<rect x="0" y="0" width="1500" height="580" fill="#f7f6f2" stroke="none" stroke-width="1.5" rx="0"/>
+<rect x="0" y="0" width="1500" height="11" fill="#b57b43" stroke="none" stroke-width="1.5" rx="0"/>
+<text x="47" y="67" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#263740">SERVICE ROAD DESIGN PARAMETERS</text>
+<text x="48" y="115" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" fill="#815834">Left / right widths, cross slopes and drain dimensions</text>
+<text x="915" y="115" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" fill="#815834">Pavement layer thicknesses</text>
+<rect x="48" y="144" width="823" height="350" fill="#efeff0" stroke="#9e9e9e" stroke-width="1.5" rx="3"/><rect x="48" y="144" width="823" height="43" fill="#fff" stroke="#aaa" stroke-width="1.5" rx="0"/><text x="62" y="172" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#282a2b">Service Road Parameters</text>
+<rect x="72" y="205" width="390" height="128" fill="#ededed" stroke="#c2c2c2" stroke-width="1.5" rx="0"/>
+<text x="85" y="229" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" fill="#282a2b">Service Road: Left</text>
+<text x="90" y="272" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#282a2b">Width, mm</text>
+<rect x="305" y="241" width="115" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="314" y="266" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">7300</text>
+<text x="90" y="318" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#282a2b">Cross slope, %</text>
+<rect x="305" y="286" width="115" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="314" y="311" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">-3.0</text>
+<rect x="468" y="205" width="380" height="128" fill="#ededed" stroke="#c2c2c2" stroke-width="1.5" rx="0"/>
+<text x="484" y="229" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600" fill="#282a2b">Service Road: Right</text>
+<text x="495" y="272" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#282a2b">Width, mm</text>
+<rect x="695" y="241" width="115" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="704" y="266" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">7300</text>
+<text x="495" y="318" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#282a2b">Cross slope, %</text>
+<rect x="695" y="286" width="115" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="704" y="311" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">-3.0</text>
+<rect x="72" y="350" width="390" height="95" fill="#efefef" stroke="#c4c4c4" stroke-width="1.5" rx="0"/>
+<text x="88" y="372" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">Drain-1 height, mm</text>
+<text x="244" y="394" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#282a2b">Left</text>
+<text x="343" y="394" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#282a2b">Right</text>
+<rect x="235" y="403" width="85" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="244" y="428" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">600</text>
+<rect x="334" y="403" width="85" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="343" y="428" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">600</text>
+<rect x="468" y="350" width="380" height="95" fill="#efefef" stroke="#c4c4c4" stroke-width="1.5" rx="0"/>
+<text x="485" y="372" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">Drain-2 width, mm</text>
+<text x="637" y="394" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#282a2b">Left</text>
+<text x="741" y="394" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#282a2b">Right</text>
+<rect x="627" y="403" width="84" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="636" y="428" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">300</text>
+<rect x="731" y="403" width="84" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="740" y="428" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">300</text>
+<rect x="912" y="144" width="538" height="350" fill="#efeff0" stroke="#9e9e9e" stroke-width="1.5" rx="3"/><rect x="912" y="144" width="538" height="43" fill="#fff" stroke="#aaa" stroke-width="1.5" rx="0"/><text x="926" y="172" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#282a2b">Service Road Layers</text>
+<text x="944" y="214" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" fill="#282a2b">Thickness, in mm</text>
+<text x="950" y="271" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#282a2b">JRCP</text>
+<rect x="1306" y="240" width="92" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="1315" y="265" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">270</text>
+<text x="950" y="324" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#282a2b">Lean Concrete</text>
+<rect x="1306" y="293" width="92" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="1315" y="318" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">100</text>
+<text x="950" y="377" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#282a2b">Sub-base</text>
+<rect x="1306" y="346" width="92" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="1315" y="371" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">250</text>
+<text x="950" y="430" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#282a2b">ISG</text>
+<rect x="1306" y="399" width="92" height="36" fill="#fff" stroke="#898989" stroke-width="1.5" rx="0"/><text x="1315" y="424" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#282a2b">300</text>
+<text x="48" y="545" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#5e6d77">Vector redraw of parameters shown in the original screen recording; not an unaltered screenshot.</text>
+</svg>
