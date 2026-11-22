@@ -2,9 +2,9 @@
 
 ![AutoLISP road cross-section project overview](assets/00-project-cover.png)
 
-**Engineer-supervised AutoCAD automation for road construction drawings and earthwork quantity calculations.**
+**AutoCAD/AutoLISP automation for road cross-section drawings and earthwork quantity calculations, with operator-controlled chainage processing.**
 
-This portfolio project documents an AutoLISP-based tool developed for road construction work involving cross-sections at approximately **20-metre chainage intervals** in urban areas. It uses surveyed **offset and Reduced Level (RL)** observations and configurable road-design parameters. The main routine deliberately draws **one chainage per execution** so an engineer can review each section and its associated calculations.
+This portfolio project documents an AutoLISP-based tool developed for road construction work involving cross-sections at approximately **20-metre chainage intervals** in urban areas. It uses surveyed **offset and Reduced Level (RL)** observations and configurable road-design parameters. The main routine deliberately draws **one chainage per execution**, allowing the CAD Operator/CAD Engineer to enter suitable design parameters, process individual sections and continue producing drawings. The Project Engineer checks a selection of initial drawings and calculations to establish confidence in the program; once satisfied, the CAD Engineer proceeds without requiring approval of every subsequent section.
 
 > **Portfolio documentation only.** The original AutoLISP source code, program files, client DWGs and unedited screen recording are not distributed here. This repository is not a runnable software release.
 
@@ -17,7 +17,7 @@ This portfolio project documents an AutoLISP-based tool developed for road const
 | Typical section spacing | 20 m in the cited urban-road workflow |
 | Data input | Survey offsets and elevations (RL), pavement-edge markers, right-side separator, design RL and chainage |
 | Key operations | Cross-section drafting, area calculation and left/right quantity summation |
-| Approach | One-chainage processing with engineer review |
+| Approach | Operator-controlled, one-chainage processing; initial Project Engineer validation |
 | Source availability | Proprietary; not published |
 
 ## Three AutoLISP commands
@@ -39,17 +39,24 @@ The commands are part of the author's own AutoCAD program and **cannot be run by
 - Measure enclosed areas and combine quantity values, with operator review.
 - Adjust section-specific parameters when terrain or road geometry changes.
 
-## Why the program handles one chainage at a time
+## Actual production workflow
 
-**This is an intentional quality-control design, not a programming limitation.** Processing an entire road without intermediate review can propagate unnoticed mistakes. In real projects:
+1. **Field Surveyors** collect survey offsets and Reduced Levels (RL) and submit field records to the office.
+2. **Data Entry Operators** enter the survey observations and format the text files to meet the routine's input requirements.
+3. **AutoCAD Operator / CAD Engineer** selects the chainage, enters appropriate design parameters in the program dialogs, and executes `CC` to produce the cross-section drawing and its associated calculations. The `A1` and `AT` commands support area measurement and left/right value summation.
+4. **Project Engineer** verifies a selection of initial cross-section drawings and calculations. When satisfied with their correctness and the program's performance, the Project Engineer authorizes continued production.
+5. **CAD Engineer** prepares the remaining cross-sections by running the program chainage by chainage. **Routine Project Engineer approval of each subsequent drawing is not required** after confidence in the program has been established.
 
-1. Survey offsets or elevations may contain transcription, measurement or formatting errors.
-2. Numerical input follows fixed formatting conventions.
-3. The farthest surveyed points on each side must extend sufficiently for the designed side-slope lines and ground intersections.
-4. Road geometry may change between sections, especially cross slopes at curves requiring superelevation adjustments.
-5. Drawing geometry and calculated quantities must be reviewed before moving to the next section.
+## Why one chainage per execution?
 
-Accordingly, the workflow is **engineer-supervised drafting and quantity automation**. It does not imply that every possible input error is automatically detected or that the output quantities have been independently certified.
+The one-chainage design is **intentional operator-controlled automation**, not an inability to process the full road. It allows the CAD Operator to work with section-specific survey and design inputs, particularly where cross slopes or superelevation vary on curves, and helps avoid carrying an incorrect parameter setting across multiple sections.
+
+In the established workflow, the author identifies **two principal operational error sources**:
+
+- **Data entry / formatting:** errors when field survey observations are entered or prepared in the text format required by the program. The survey offsets must also cover the designed side-slope extents.
+- **Design-parameter entry:** incorrect values entered into the program's dialog boxes, including section-specific parameters such as cross slopes.
+
+The purpose of the per-chainage execution is to maintain appropriate control over changing inputs and parameters. It **does not mean the Project Engineer personally inspects every produced drawing**, and the repository does not claim that the program independently detects all input errors.
 
 ## Input-data format
 
@@ -66,7 +73,7 @@ For a **synthetic documentation example**, see [sample-data/synthetic_offset_RL_
 ## Documentation
 
 - [Offset–RL format explained](docs/INPUT-DATA-FORMAT.md)
-- [Engineer-supervised quality-control workflow](docs/QUALITY-CONTROL-WORKFLOW.md)
+- [CAD production and initial engineering validation workflow](docs/QUALITY-CONTROL-WORKFLOW.md)
 - [Demonstration-video and disclosure checklist](docs/VIDEO-DEMO-NOTES.md)
 
 ## Road cross-section demonstrations
@@ -95,7 +102,7 @@ The generated drawing provides a basis for inspecting section geometry and assoc
 
 ![Road-section quantity table](assets/04-quantity-table.png)
 
-The engineer may use `A1` to measure enclosed areas and `AT` to combine corresponding left- and right-side quantity values.
+The CAD Operator/CAD Engineer may use `A1` to measure enclosed areas and `AT` to combine corresponding left- and right-side quantity values.
 
 ### Illustrative survey data format
 
@@ -113,7 +120,7 @@ The field-data format captures offsets and RL values, with section markers and d
 
 ## Engineering and technical focus
 
-`AutoLISP` · `AutoCAD` · `Road Cross-Sections` · `Survey Offset–RL` · `Earthwork Quantities` · `Cut and Fill` · `CAD Automation` · `Engineer-Supervised QA`
+`AutoLISP` · `AutoCAD` · `Road Cross-Sections` · `Survey Offset–RL` · `Earthwork Quantities` · `Cut and Fill` · `CAD Automation` · `Operator-Controlled Automation` · `Initial Engineering Validation`
 
 ## Authorship
 
