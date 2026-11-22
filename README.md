@@ -80,11 +80,21 @@ For a **synthetic documentation example**, see [sample-data/synthetic_offset_RL_
 
 The following selected images document the engineering interface and generated output of the AutoLISP workflow. They are **portfolio illustrations, not independently verified as-built measurements**.
 
-### Main-road design configuration
+### Main Road design parameters
 
-![Main road design parameters in AutoCAD](assets/01-main-road-design-parameters.png)
+![Main Road design parameters in AutoCAD](assets/01-main-road-design-parameters.png)
 
-Road design inputs are inspected for the chainage being processed, including roadway geometry and section-specific parameters.
+The program provides configurable Main Road design parameters, including widths, cross slopes, pavement-related dimensions and other section-specific settings.
+
+### Service Road design parameters
+
+![Service Road parameter dialogs — widths, slopes, drains and pavement layers](assets/06-service-road-parameters.svg)
+
+The recorded **Service Road Parameters** dialog includes separate Left and Right Service Road widths and cross slopes, plus drain dimensions. The **Service Road Layers** dialog provides JRCP, Lean Concrete, Sub-base and ISG thickness settings.
+
+In the recorded example, the Service Road widths are 7,300 mm on each side with cross slopes of −3.0%; the layer thicknesses are 270 mm (JRCP), 100 mm (Lean Concrete), 250 mm (Sub-base) and 300 mm (ISG). These are **illustrative project settings**, not fixed values for all roads.
+
+*The graphic above accurately transcribes the example dialog values visible in your video. It is a vector redraw, not an unedited screenshot.*
 
 ### Road cross-section details
 
