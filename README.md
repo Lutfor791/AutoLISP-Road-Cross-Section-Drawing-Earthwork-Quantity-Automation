@@ -80,21 +80,65 @@ For a **synthetic documentation example**, see [sample-data/synthetic_offset_RL_
 
 The following selected images document the engineering interface and generated output of the AutoLISP workflow. They are **portfolio illustrations, not independently verified as-built measurements**.
 
-### Main Road design parameters
+### 1. Program Startup Dialog
 
-![Main Road design parameters in AutoCAD](assets/01-main-road-design-parameters.png)
+![Program Startup Dialog — Road Cross Section SDSCRIP](assets/07-program-startup-dialog.svg)
 
-The program provides configurable Main Road design parameters, including widths, cross slopes, pavement-related dimensions and other section-specific settings.
+The **Road Cross Section (SDSCRIP V1.0)** dialog is the main control interface for command `CC`. It provides separate buttons for Main Road and Service Road **Widths and Slopes** and **Thickness**, horizontal and vertical drawing-scale inputs, a choice to enter the Design RL manually or read it from the survey-data file, and controls for selecting, previewing, or editing the Offset–RL input file.
 
-### Service Road design parameters
+*This dialog illustration reproduces the layout and example settings of the screenshot supplied by the author; it is not a direct screenshot.*
 
-![Service Road parameter dialogs — widths, slopes, drains and pavement layers](assets/06-service-road-parameters.svg)
+### 2. Main Road Parameters — Widths and Slopes
 
-The recorded **Service Road Parameters** dialog includes separate Left and Right Service Road widths and cross slopes, plus drain dimensions. The **Service Road Layers** dialog provides JRCP, Lean Concrete, Sub-base and ISG thickness settings.
+![Main Road Widths and Slopes dialog recorded in AutoCAD](assets/01-main-road-design-parameters.png)
 
-In the recorded example, the Service Road widths are 7,300 mm on each side with cross slopes of −3.0%; the layer thicknesses are 270 mm (JRCP), 100 mm (Lean Concrete), 250 mm (Sub-base) and 300 mm (ISG). These are **illustrative project settings**, not fixed values for all roads.
+The Main Road dialog configures the median, left/right pavement widths and cross slopes, W-beam widths/slopes, soft-shoulder widths/slopes, and left/right side slopes. In the recording, the example includes **9,400 mm pavement widths on both sides**, **−3.0% pavement cross slopes**, **2,000 mm soft shoulders**, and **1 in 2 side slopes**. All values are project-specific and may vary at different chainages.
 
-*The graphic above accurately transcribes the example dialog values visible in your video. It is a vector redraw, not an unedited screenshot.*
+### 3. Main Road Layers / Thickness
+
+![Main Road Layers and pavement thickness settings](assets/08-main-road-layers.svg)
+
+The Main Road Layers dialog defines the thickness of individual pavement layers. The recorded example shows:
+
+| Main Road pavement layer | Thickness (mm) |
+|---|---:|
+| Wearing Course | 50 |
+| Binder Course | 160 |
+| Base Type-I | 300 |
+| Sub-base | 250 |
+| ISG | 300 |
+
+*Vector reconstruction of the recorded Main Road Layers dialog; values are illustrative.*
+
+### 4. Service Road Parameters — Widths, Slopes and Drains
+
+![Service Road left and right widths, cross slopes and drain parameters](assets/09-service-road-widths-slopes-drains.svg)
+
+The Service Road dialog contains separate inputs for **left and right Service Road widths and cross slopes**, together with **Drain-1 heights** and **Drain-2 widths**. The recorded example shows:
+
+| Service Road setting | Left | Right |
+|---|---:|---:|
+| Width (mm) | 7,300 | 7,300 |
+| Cross slope (%) | −3.0 | −3.0 |
+| Drain-1 height (mm) | 600 | 600 |
+| Drain-2 width (mm) | 300 | 300 |
+
+*Vector reconstruction of the recorded Service Road Parameters dialog.*
+
+### 5. Service Road Layers / Thickness
+
+![Service Road Layers and pavement thickness settings](assets/10-service-road-layers.svg)
+
+The Service Road Layers dialog sets the layer thicknesses independently from the Main Road:
+
+| Service Road pavement layer | Thickness (mm) |
+|---|---:|
+| JRCP | 270 |
+| Lean Concrete | 100 |
+| Sub-base | 250 |
+| ISG | 300 |
+
+*Vector reconstruction of the recorded Service Road Layers dialog; figures are example design settings, not standard values for all projects.*
 
 ### Road cross-section details
 
