@@ -1,6 +1,6 @@
 # AutoLISP Road Cross-Section Drawing & Earthwork Quantity Automation
 
-![Illustrative road-section workflow](assets/road-cross-section-overview.svg)
+![AutoLISP road cross-section project overview](assets/00-project-cover.png)
 
 **Engineer-supervised AutoCAD automation for road construction drawings and earthwork quantity calculations.**
 
@@ -69,11 +69,47 @@ For a **synthetic documentation example**, see [sample-data/synthetic_offset_RL_
 - [Engineer-supervised quality-control workflow](docs/QUALITY-CONTROL-WORKFLOW.md)
 - [Demonstration-video and disclosure checklist](docs/VIDEO-DEMO-NOTES.md)
 
-## Project images and video
+## Road cross-section demonstrations
 
-The original demonstration recording and example screenshots were reviewed while preparing this documentation. They are **not included in this initial repository**. Any future media should be reviewed for project identifiers, local computer paths, drawing/quantity details and publication permission. A redacted demonstration may be added when cleared.
+The following selected images document the engineering interface and generated output of the AutoLISP workflow. They are **portfolio illustrations, not independently verified as-built measurements**.
 
-The overview graphic above is a **conceptual illustration**, not a CAD output or representation of a surveyed section.
+### Main-road design configuration
+
+![Main road design parameters in AutoCAD](assets/01-main-road-design-parameters.png)
+
+Road design inputs are inspected for the chainage being processed, including roadway geometry and section-specific parameters.
+
+### Road cross-section details
+
+![AutoCAD road profile close-up](assets/02-road-profile-closeup.png)
+
+The drawing represents existing field ground and proposed road geometry, with elevations and annotations.
+
+### Generated section and earthwork quantities
+
+![Generated road cross-section and quantities](assets/03-generated-section-and-quantities.png)
+
+The generated drawing provides a basis for inspecting section geometry and associated quantity calculations.
+
+### Quantity calculation table
+
+![Road-section quantity table](assets/04-quantity-table.png)
+
+The engineer may use `A1` to measure enclosed areas and `AT` to combine corresponding left- and right-side quantity values.
+
+### Illustrative survey data format
+
+![Offset RL data format illustration](assets/05-illustrative-data-format.png)
+
+The field-data format captures offsets and RL values, with section markers and design information. The graphic is an explanation of input structure, not a substitute for the original survey records.
+
+### Conceptual workflow diagram
+
+![Conceptual road cross-section workflow](assets/road-cross-section-overview.svg)
+
+*Conceptual diagram only; not a surveyed or generated CAD drawing.*
+
+**Video:** A redacted recording can be added after publication permissions and visual disclosure checks are complete. The original unedited recording and proprietary AutoLISP source code are not included. See the [video preparation checklist](docs/VIDEO-DEMO-NOTES.md).
 
 ## Engineering and technical focus
 
