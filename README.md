@@ -25,7 +25,7 @@ This portfolio project documents a custom AutoLISP program developed for road co
 | Command | Function |
 |---|---|
 | `CC` | **Main command**: generates the road cross-section drawing for one chainage using survey observations and design parameters. |
-| `A1` | Finds the area of an enclosed boundary, used for cut or fill calculations. |
+| `A1` | Calculates the area of **any enclosed boundary**; in this road cross-section program, it is mainly used to measure **earthwork cut and fill areas**. |
 | `AT` | Sums corresponding quantities from the left-hand and right-hand sides. |
 
 The commands are part of the author's own AutoCAD program and **cannot be run by downloading this documentation repository**.
@@ -36,14 +36,14 @@ The commands are part of the author's own AutoCAD program and **cannot be run by
 - Configure drawing parameters for the road section, including cross slopes, pavement widths, side slopes and other road components.
 - Draw and annotate existing terrain and proposed road cross-section geometry.
 - Represent roadway components and provide drawing-level dimensional and elevation information.
-- Measure enclosed areas and combine quantity values, with operator review.
+- Measure enclosed areas using `A1` (primarily earthwork cut and fill areas in this program) and sum corresponding left/right quantities with `AT`.
 - Adjust section-specific parameters when terrain or road geometry changes.
 
 ## Actual production workflow
 
 1. **Field Surveyors** collect survey offsets and Reduced Levels (RL) and submit field records to the office.
 2. **Data Entry Operators** enter the survey observations and format the text files to meet the routine's input requirements.
-3. **AutoCAD Operator / CAD Engineer** selects the chainage, enters appropriate design parameters in the program dialogs, and executes `CC` to produce the cross-section drawing and its associated calculations. The `A1` and `AT` commands support area measurement and left/right value summation.
+3. **AutoCAD Operator / CAD Engineer** selects the chainage, enters appropriate design parameters in the program dialogs, and executes `CC` to produce the cross-section drawing and its associated calculations. The `A1` command measures enclosed areas, primarily cut/fill areas in this application; `AT` sums left/right values.
 4. **Project Engineer** verifies a selection of initial cross-section drawings and calculations. When satisfied with their correctness and the program's performance, the Project Engineer authorizes continued production.
 5. **CAD Engineer** prepares the remaining cross-sections by running the program chainage by chainage. **Routine Project Engineer approval of each subsequent drawing is not required** after confidence in the program has been established.
 
@@ -102,7 +102,7 @@ The generated drawing provides a basis for inspecting section geometry and assoc
 
 ![Road-section quantity table](assets/04-quantity-table.png)
 
-The CAD Operator/CAD Engineer may use `A1` to measure enclosed areas and `AT` to combine corresponding left- and right-side quantity values.
+The CAD Operator/CAD Engineer uses `A1` primarily to calculate earthwork **cut and fill areas**, although it can measure **any enclosed area**. The `AT` command combines corresponding left- and right-side quantity values.
 
 ### Illustrative survey data format
 
