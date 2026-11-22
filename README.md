@@ -110,12 +110,6 @@ The CAD Operator/CAD Engineer uses `A1` primarily to calculate earthwork **cut a
 
 The field-data format captures offsets and RL values, with section markers and design information. The graphic is an explanation of input structure, not a substitute for the original survey records.
 
-### Conceptual workflow diagram
-
-![Conceptual road cross-section workflow](assets/road-cross-section-overview.svg)
-
-*Conceptual diagram only; not a surveyed or generated CAD drawing.*
-
 **Video:** A redacted recording can be added after publication permissions and visual disclosure checks are complete. The original unedited recording and proprietary AutoLISP source code are not included. See the [video preparation checklist](docs/VIDEO-DEMO-NOTES.md).
 
 ## Engineering and technical focus
@@ -124,6 +118,6 @@ The field-data format captures offsets and RL values, with section markers and d
 
 ## Authorship
 
-Developed and documented by **Lutfor Rahman** as part of professional CAD and engineering-automation work. The repository demonstrates the engineering workflow and the author's relevant experience rather than distributing a licensed implementation.
+Developed and documented by **Md. Lutfor Rahman** as part of professional CAD and engineering-automation work. The repository demonstrates the engineering workflow and the author's relevant experience rather than distributing a licensed implementation.
 
 For suitable custom AutoCAD automation or civil-engineering drafting work, contact the author through his professional profile.
