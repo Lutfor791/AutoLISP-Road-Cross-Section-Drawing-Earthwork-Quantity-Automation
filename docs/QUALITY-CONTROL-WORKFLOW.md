@@ -6,7 +6,7 @@ This document records how the AutoLISP road cross-section program is used in pra
 
 1. **Surveyors — field measurements:** collect offsets from the proposed road centreline and Reduced Levels (RL) for the relevant chainages, then submit field records to the office.
 2. **Data Entry Operators — preparation:** enter the surveyed observations and prepare correctly formatted input files for the AutoLISP program.
-3. **AutoCAD Operator / CAD Engineer — drawing production:** check the required input format, enter road-design parameters in the dialogs, run `CC` to generate the individual cross-section drawing, and use `A1` / `AT` as needed for area measurement and left/right quantity summation.
+3. **AutoCAD Operator / CAD Engineer — drawing production:** check the required input format, enter road-design parameters in the dialogs, run `CC` to generate the individual cross-section drawing, and use `A1` primarily for cut/fill area measurements (the command can calculate any enclosed area) and `AT` for left/right quantity summation.
 4. **Project Engineer — initial validation:** examine a selection of the initial cross-section drawings and calculations. If the results are satisfactory, authorize the CAD Engineer to continue with the remaining sections.
 5. **CAD Engineer — continued production:** generate drawings for subsequent chainages (typically at 20 m intervals in the described urban-road workflow) without Project Engineer review of every remaining drawing.
 
@@ -31,7 +31,7 @@ These are the two principal identified error sources in the described workflow. 
 | Command | Purpose |
 |---|---|
 | `CC` | Main cross-section drawing routine; one chainage per execution |
-| `A1` | Enclosed-area measurement, including earthwork cut/fill areas |
+| `A1` | Calculates the area of any enclosed boundary; mainly used for earthwork cut and fill areas in this program |
 | `AT` | Sum left-side and right-side values |
 
 The source code is proprietary and is not part of this documentation-only repository.
