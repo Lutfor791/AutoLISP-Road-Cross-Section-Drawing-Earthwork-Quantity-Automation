@@ -8,6 +8,16 @@ This portfolio project documents a custom AutoLISP program developed for road co
 
 > **Portfolio documentation only.** The original AutoLISP source code, program files, client DWGs and unedited screen recording are not distributed here. This repository is not a runnable software release.
 
+## Video demonstration
+
+[**Watch the approved AutoLISP Road Cross-Section Demonstration (1 min 49 sec)**](assets/AutoLISP_Road_Cross_Section_Demo.mp4)
+
+[![Preview of the generated road cross-section and quantity table — select to watch the demonstration](assets/03-generated-section-and-quantities.PNG)](assets/AutoLISP_Road_Cross_Section_Demo.mp4)
+
+The short video shows the custom AutoCAD/AutoLISP program's parameter dialogs for the Main Road and Service Road, the surveyed Offset–RL data input, cross-section drawing, and associated quantity-calculation workflow. The example illustrates **one-chainage-at-a-time** operation, with CAD-operator-controlled design settings and subsequent drawing production.
+
+*The video documents program operation only; the proprietary AutoLISP source code is not included.*
+
 ## Project overview
 
 | Attribute | Details |
@@ -164,7 +174,7 @@ The CAD Operator/CAD Engineer uses `A1` primarily to calculate earthwork **cut a
 
 The field-data format captures offsets and RL values, with section markers and design information. The graphic is an explanation of input structure, not a substitute for the original survey records.
 
-**Video:** A redacted recording can be added after publication permissions and visual disclosure checks are complete. The original unedited recording and proprietary AutoLISP source code are not included. See the [video preparation checklist](docs/VIDEO-DEMO-NOTES.md).
+The approved [video demonstration](assets/AutoLISP_Road_Cross_Section_Demo.mp4) is included in the repository. The original unedited screen recording and proprietary AutoLISP source code are not distributed. See [video and publication notes](docs/VIDEO-DEMO-NOTES.md).
 
 ## Engineering and technical focus
 
