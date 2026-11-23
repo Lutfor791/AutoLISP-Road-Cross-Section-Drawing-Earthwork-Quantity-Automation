@@ -1,10 +1,4 @@
-
-
-https://github.com/user-attachments/assets/ceee498f-d5a5-48d9-952d-2160441af02a
-
 # AutoLISP Program for Road Cross-Section Drawing & Earthwork Quantity Calculations
-
-![AutoLISP program for road cross-section drawing and earthwork calculations](assets/00-project-cover-updated.svg)
 
 **AutoCAD/AutoLISP automation for road cross-section drawings and earthwork quantity calculations, with operator-controlled chainage processing.**
 
@@ -14,9 +8,11 @@ This portfolio project documents a custom AutoLISP program developed for road co
 
 ## Video demonstration
 
-[**Watch the approved AutoLISP Road Cross-Section Demonstration (1 min 49 sec)**](assets/AutoLISP_Road_Cross_Section_Demo.mp4)
+https://github.com/user-attachments/assets/ceee498f-d5a5-48d9-952d-2160441af02a
 
-[![Preview of the generated road cross-section and quantity table — select to watch the demonstration](assets/03-generated-section-and-quantities.PNG)](assets/AutoLISP_Road_Cross_Section_Demo.mp4)
+**AutoLISP Road Cross-Section Demonstration — 1 minute 49 seconds**
+
+[View the MP4 file in the repository](assets/AutoLISP_Road_Cross_Section_Demo.mp4)
 
 The short video shows the custom AutoCAD/AutoLISP program's parameter dialogs for the Main Road and Service Road, the surveyed Offset–RL data input, cross-section drawing, and associated quantity-calculation workflow. The example illustrates **one-chainage-at-a-time** operation, with CAD-operator-controlled design settings and subsequent drawing production.
 
@@ -178,7 +174,7 @@ The CAD Operator/CAD Engineer uses `A1` primarily to calculate earthwork **cut a
 
 The field-data format captures offsets and RL values, with section markers and design information. The graphic is an explanation of input structure, not a substitute for the original survey records.
 
-The approved [video demonstration](assets/AutoLISP_Road_Cross_Section_Demo.mp4) is included in the repository. The original unedited screen recording and proprietary AutoLISP source code are not distributed. See [video and publication notes](docs/VIDEO-DEMO-NOTES.md).
+The full demonstration video is embedded near the beginning of this README. The original unedited recording and proprietary AutoLISP source code are not distributed. See the [video and publication notes](docs/VIDEO-DEMO-NOTES.md).
 
 ## Engineering and technical focus
 
