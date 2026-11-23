@@ -8,17 +8,13 @@
 - **Content:** AutoCAD program introduction, Main Road and Service Road dialog settings, survey Offset–RL data, cross-section production and quantity-calculation demonstration
 - **Editorial note:** The 43–50-second section of the review cut was replaced with a centered, readable Notepad Offset–RL example.
 - **Review status:** The author approved the second edited version for presentation on November 23, 2026.
-- **GitHub upload:** Pending. The approved video remains a separate file until uploaded to `assets/`.
+- **GitHub upload:** Completed. `assets/AutoLISP_Road_Cross_Section_Demo.mp4` is available and linked from `README.md`.
 
 The original screen recording is approximately **4 minutes 35 seconds**. The edited video is a demonstration of the existing program, **not** a distribution of its proprietary source code.
 
-## Upload and README linking
+## Video file and README integration
 
-1. Upload the approved MP4 to the repository's `assets/` folder using **Add file → Upload files**.
-2. Confirm the exact filename and capitalization: `AutoLISP_Road_Cross_Section_Demo.mp4`.
-3. Commit the uploaded file to the `main` branch.
-4. Add a **Video Demonstration** section to `README.md`, linking to `assets/AutoLISP_Road_Cross_Section_Demo.mp4`.
-5. Verify that the video opens and plays before changing the repository visibility to Public.
+The approved MP4 has been uploaded to `assets/AutoLISP_Road_Cross_Section_Demo.mp4`. A **Video demonstration** section near the start of `README.md` links to the video through both text and an annotated cross-section preview image. Before changing repository visibility to Public, open the video on GitHub and confirm that it plays correctly.
 
 ## Publication and disclosure checklist
 
